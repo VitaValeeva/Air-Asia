@@ -6,6 +6,10 @@
   margin-bottom: 48px;
 }
 
+.hot-tours__title-icon {
+  display: inline-block;
+}
+
 .hot-tours__title-text {
   display: inline-block;  
   font-size: 36px;
