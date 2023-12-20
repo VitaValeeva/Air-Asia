@@ -5,32 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <title>Air Asia</title>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Air Asia | Main page</title>
+  <link rel="stylesheet" href="./css/layout/normalize.css">
 </head>
 
 <body>
   <div class="wrapper">
     <div class="container">
-      <header class="header">
-        <div class="logo">
-          <a href="/" class="logo__link">
-            <img src="./img/лого.png" alt="Картинка логотипа" class="logo__icon">
-          </a>
-        </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
-            <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
-            <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-          <div class="contacts__graph">График работы</div>
-        </address>
-      </header>
-      <main class="main">
+      <div class="container__content">
+        <header class="header">
+          <div class="header__left">  
+            <div class="logo">
+             <a href="/" class="logo__link">
+              <img src="./img/лого.png" alt="Картинка логотипа" class="logo__icon">
+             </a>
+            </div>
+            <nav class="menu">
+             <ul class="menu__list">
+              <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+             </ul>
+            </nav>
+          </div>
+          <div class="header__right">
+            <address class="contacts">
+              <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
+              <div class="contacts__graph">График работы</div>
+            </address>
+          </div>           
+        </header>
+        <main class="main">
         <div class="preview">
           <h1 class="preview__title">Авторские туры по Азии</h1>
           <div class="preview__text">
@@ -132,22 +138,22 @@
         <div class="news">
           <h2 class="news__title">Новости и акции</h2>
           <ul class="news__list">
-            <li class="news__item">
+            <li class="news__item single-news">
               <img src="./img/plain.png" alt="Картинка Самолет" class="news__image">
-              <div class="news__content">
-                <time class="news__date">Декабрь 2019</time>
-                <h3 class="news__subtitle">Дешевые путевки на Новый Год!</h3>
-                <div class="news__text">
+              <div class="single-news__content">
+                <time class="single-news__date">Декабрь 2019</time>
+                <h3 class="single-news__subtitle">Дешевые путевки на Новый Год!</h3>
+                <div class="single-news__text">
                   <p>Проведи новый год в Тайланде</p>
                 </div>
               </div>
             </li>
-            <li class="news__item">
+            <li class="news__item single-news">
               <img src="./img/Surfer.png" alt="Картинка Серфер" class="news__image">
-              <div class="news__content">
-                <time class="news__date">Декабрь 2019</time>
-                <h3 class="news__subtitle">Акция для серфингистов!</h3>
-                <div class="news__text">
+              <div class="single-news__content">
+                <time class="single-news__date">Декабрь 2019</time>
+                <h3 class="single-news__subtitle">Акция для серфингистов!</h3>
+                <div class="single-news__text">
                   <p>В сезон больших волн скидка на путевку в Тайланд на остров серфингистов.
                     Удачного пути!</p>
                 </div>
@@ -202,51 +208,57 @@
             </div>
           </div>
         </div>
-      </main>
+        </main>
+      </div>
       <footer class="footer">
-        <div class="logo">
-          <a href="/" class="logo__link">
-            <img src="./img/лого.png" alt="Картинка логотипа" class="logo__icon">
-          </a>
+        <div class="footer__left">
+          <div class="logo">
+            <a href="/" class="logo__link">
+              <img src="./img/лого.png" alt="Картинка логотипа" class="logo__icon">
+            </a>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
+              <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"> <a href="#" class="menu__link">Главная</a> </li>
-            <li class="menu__item"> <a href="#" class="menu__link">Услуги</a> </li>
-            <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
-          </ul>
-        </nav>
-        <div class="socials">
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="#" alt="Иконка Телеграмма" class="socials__icon">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="#" alt="Иконка ВКонтакте" class="socials__icon">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="#" alt="Иконка Фэйсбука" class="socials__icon">
-              </a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="#" alt="Иконка Инстаграмма" class="socials__icon">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <address class="contacts">
-          <div class="contacts__text">Бесплатный звонок по России</div>
-          <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-        </address>
+        <div class="footer__right">
+          <div class="socials">
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/telegram.png" alt="Иконка Телеграмма" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/vk.png" alt="Иконка ВКонтакте" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/f.png" alt="Иконка Фэйсбука" class="socials__icon">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link">
+                  <img src="./img/in.png" alt="Иконка Инстаграмма" class="socials__icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <address class="contacts">
+            <div class="contacts__text">Бесплатный звонок по России</div>
+            <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
+          </address>
+        </div>          
       </footer>
     </div>
   </div>
+  
 </body>
 
 </html>

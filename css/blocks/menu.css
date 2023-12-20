@@ -1,0 +1,14 @@
+.menu {
+  left: 165px;
+  top: 40px;
+}
+
+.menu__item {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}

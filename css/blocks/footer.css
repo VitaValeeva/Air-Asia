@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  border-top: 1px solid #192f37;
+  height: 93px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  /* position: absolute; */
+  top: 49px;
+  margin-right: 74px;
+}
+
+.socials__link {
+  display: inline-block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contacts__text {
+  color: #9A9A9A;
+  font-size: 11px;
+  margin-bottom: 6.5px;
+}

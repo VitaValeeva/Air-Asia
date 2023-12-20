@@ -1,0 +1,12 @@
+.logo, .menu, .contacts, .socials {
+  display: inline-block;
+}
+
+.logo {
+  top: 29px;
+  left: 0;
+  width: 85px;
+  height: 36px;
+  margin-right: 79px;
+}
+
