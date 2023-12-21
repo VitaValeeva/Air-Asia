@@ -1,3 +1,7 @@
+.wrapper--services {
+  background: none;
+}
+
 .top-line {
   background-image: url(../../img/headline\ 1.png);
   background-position: center;
@@ -6,7 +10,6 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 23.5px;
-  width: 1920px;
   min-height: 412px;
   margin: 0 auto;
 }
@@ -83,10 +86,10 @@
 }
 
 .page-content {
-  width: 1920px;
   background: #fff;
   color: black;
   margin: 0 auto;
+  padding-bottom: 63px;
 }
 
 .services {
@@ -145,15 +148,14 @@
 .inner-section {
   background: #F4F5F5;
   color: #1A1B1E;
-  width: 1920px;
   height: 537px;
   margin: 0 auto;
+  padding: 88px 0 117px;
 }
 
 .inner-section__title {
   font-size: 48px;
   font-weight: 700;
-  margin-top: 88px;
   margin-bottom: 79px;
 }
 
@@ -174,7 +176,7 @@
   text-decoration: none;
 }
 
-.footer__services {
+.footer--services {
   width: 1920px;
   margin: 0 auto;
   padding: 48px 390px;
