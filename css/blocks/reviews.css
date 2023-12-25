@@ -1,0 +1,192 @@
+.reviews__list {
+  margin-top: 98px;
+  column-count: 2;
+  gap: 27px;
+  margin-bottom: -17px;
+}
+
+.reviews__item {
+  margin-bottom: 17px;
+}
+
+.review {
+  padding: 50px 30px 32.5px;
+  background: #F4F5F5;
+  border-radius: 5px;
+  display: inline-block;
+
+} 
+  
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.avatar {
+  width: 139px;
+  height: 139px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E77A4;
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
+
+.review__user:after {
+content: url(../../img/vk-blue\ 1.png);
+height: 30px;
+margin-left: 7px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 18px;
+  background: #E7E7E7;
+  border-radius: 35px;
+  color: #303030
+}
+
+.tag--bg--green {
+  background: #B9EAE4;
+}
+
+.review__title {
+  color: #1A1B1E;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.review__content-text {
+  margin-bottom: 48.5px;
+}
+
+.review__date {
+  color: #1A1B1E;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paginator--review {
+  margin-top: 71px;
+}
+
+.banner {
+  background-image: url(../../img/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  color: #FFF;
+}
+
+.banner__content {
+  display: flex;
+}
+
+.banner__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  width: 594px;
+  margin-top: 117px;
+  margin-right: 26px;
+}
+
+.banner__image {
+  overflow: hidden;
+  margin-top: 21px;
+}
+
+.inner-section--reviews {
+  height: 100%;
+}
+
+.form {
+  background: #F4F5F5;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 26px;
+  gap: 28px;
+}
+
+.form__input {
+  flex: 1;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #FFF;
+  padding: 20px 30px;
+  /* color: #1A1B1E; */
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form__input:focus {
+  border-color: #F5170E;
+  outline: 0;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input--textarea {
+  min-height: 235px;
+}
+
+.form__controls {
+  display: flex;
+}
+
+.form__controls-title {
+  width: 40%;
+  color: #1A1B1E;
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 74px;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 9px;
+  margin-right: 7px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+
+
