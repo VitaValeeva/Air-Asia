@@ -36,7 +36,6 @@ address {
   font-size: 13px;
   font-weight: 700;
   text-align: start;
-  margin-top: -5px;
 }
 
 .schedule__lunch {
@@ -54,7 +53,7 @@ address {
   position: absolute;
   top: calc(100% + 4px);
   right: 0;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   background-color: #EDEDED;
   color: #1E1F20;
