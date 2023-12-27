@@ -5,7 +5,7 @@
 
 .about__image {
   width: 490px;
-  height: 505px;
+  height: 498px;
   display: inline-block;
   object-fit: cover;
   vertical-align: top;
@@ -29,7 +29,7 @@
 
 .about__desc-content {
   position: absolute;
-  padding:70px 202px 66px 81px;
+  padding:70px 202px 70px 81px;
   bottom: 0;
 }
 
@@ -44,5 +44,11 @@
   color: #060606;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 43px;
+  line-height: 1.7;
+  margin-bottom: 44px;
+}
+
+.button--about {
+  height: 55px;
+  width: 168px;
 }

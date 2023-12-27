@@ -15,8 +15,65 @@ address {
   color: #FFF;
 }
 
-.contacts__graph {
+.schedule {
+  margin-top: -5px;
+  position: relative;
+}
+
+.schedule__text {
   font-size: 13px;
   text-decoration-line: underline;
+  position: relative;
+  transition: color 0.4s;
 }
+
+.schedule__text:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.schedule__time {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: start;
+  margin-top: -5px;
+}
+
+.schedule__lunch {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.schedule__text:hover + .schedule__info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.schedule__info {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #EDEDED;
+  color: #1E1F20;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.schedule__info::before {
+  position: absolute;
+  bottom: 100%;
+  right: 44px;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+  border-bottom-color: #EDEDED;
+  border-top: 0;
+}
+
+
 

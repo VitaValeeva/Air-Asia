@@ -11,7 +11,7 @@
 .news__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 57.5px;
+  margin-bottom: 49px;
 }
 
 .news__item {

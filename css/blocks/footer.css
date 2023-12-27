@@ -21,6 +21,16 @@
   margin-right: 74px;
 }
 
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5.5px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
 .socials__link {
   display: inline-block;
   text-decoration: none;
@@ -28,13 +38,47 @@
   height: 36px;
 }
 
-.socials__item {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .contacts__text {
   color: #9A9A9A;
   font-size: 11px;
-  margin-bottom: 6.5px;
 }
+
+.socials__link {
+  background: url('../../img/sprite.png') 200px 200px;
+}
+
+.tg {
+  background-position: -66px -122px;;
+}
+
+.tg:hover {
+  background-position: -10px -122px;
+}
+
+.vk {
+  background-position: -122px -66px;
+}
+
+.vk:hover {
+  background-position: -122px -10px;
+}
+
+.fb {
+  background-position: -66px -66px;
+}
+
+.fb:hover {
+  background-position: -10px -66px;
+}
+
+.inst {
+  background-position: -66px -10px;
+}
+
+.inst:hover {
+  background-position: -10px -10px;
+}
+
+
+
+
